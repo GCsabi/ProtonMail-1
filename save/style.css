@@ -1,0 +1,180 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid rgba(130, 130, 130, 0.5);
+    border-collapse: collapse;
+}
+
+#name_span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#name_field {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 275px;
+    height: 30px;
+    font-size: 120%;
+    text-indent: 6px;
+}
+
+#pin_span {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+}
+
+#pin_field {
+    position: absolute;
+    left: 10px;
+    top: 95px;
+    width: 275px;
+    height: 30px;
+    font-size: 120%;
+    text-align: center;
+}
+
+#username_span {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+
+#username_field {
+    position: absolute;
+    left: 10px;
+    top: 160px;
+    width: 275px;
+    height: 30px;
+    font-size: 120%;
+    text-indent: 6px;
+}
+
+#password_span {
+    position: absolute;
+    left: 10px;
+    top: 205px;
+}
+
+#password_field {
+    position: absolute;
+    left: 10px;
+    top: 225px;
+    width: 275px;
+    height: 30px;
+    font-size: 120%;
+    text-indent: 6px;
+}
+
+#mailbox_span {
+    position: absolute;
+    left: 10px;
+    top: 270px;
+}
+
+#mailbox_field {
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 275px;
+    height: 30px;
+    font-size: 120%;
+    text-indent: 6px;
+}
+
+#save_span {
+    position: absolute;
+    left: 10px;
+    top: 335px;
+}
+
+#save_field {
+    position: absolute;
+    left: 160px;
+    top: 336px;
+}
+
+button {
+    width: 80px;
+    color: #444444;
+    background: #E6E6E6;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    padding: 0.5em 1em;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+button:hover, button:focus {
+    outline:0;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+}
+button:active {
+    outline:0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+
+#stop_btn {
+    position: absolute;
+    left: 10px;
+    top: 365px;
+}
+
+#reset_btn {
+    position: absolute;
+    left: 100px;
+    top: 365px;
+}
+
+#submit_btn {
+    position: absolute;
+    left: 190px;
+    top: 365px;
+    width: 100px;
+    color: #FFFFFF;
+    background: #66B2D8;
+}
+
+#tooltip {
+    position: absolute;
+    left: 310px;
+    max-width: 212px;
+    background: #F2F2F2;
+    padding: 7px 7px;
+    border: 2px solid #DBDBDB;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.toolitem {
+    font-size: 70%;
+    display: none;
+}
+
+#save_tool_result {
+    color: #219911;
+}
+
+#error_tool {
+    color: #F20000;
+}

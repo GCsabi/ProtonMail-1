@@ -1,0 +1,97 @@
+body, html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+}
+
+* {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#logo_img {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 370px;
+    height: 59px;
+}
+
+button {
+    color: #444444;
+    background: #E6E6E6;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    padding: 0.5em 1em;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+button:hover, button:focus {
+    outline:0;
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+}
+button:active {
+    outline:0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+
+#open_btn {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 370px;
+    height: 80px;
+    color: #FFFFFF;
+    background: #66B2D8;
+    font-size: 150%;
+}
+
+#files_btn {
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    width: 170px;
+    height: 40px;
+}
+
+#new_btn {
+    position: absolute;
+    left: 230px;
+    top: 230px;
+    width: 170px;
+    height: 40px;
+}
+
+#recent_logins {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+    width: 170px;
+    min-width: 170px;
+    max-width: 170px;
+    height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-left: 1px solid #828282;
+    text-align: left;
+    vertical-align: top;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.login_item {
+    width: 170px;
+    padding: 0.5em 1em;
+    font-size: 110%;
+}
+
+.login_item:hover {
+    color: #FFFFFF;
+    background: #66B2D8;
+}

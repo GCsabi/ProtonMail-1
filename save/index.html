@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="text/javascript" src="./script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <span id="name_span">Name of the save</span>
+            <input type="text" id="name_field">
+            <span id="pin_span">Unlock PIN</span>
+            <input type="text" id="pin_field">
+            <span id="username_span">ProtonMail Username</span>
+            <input type="text" id="username_field">
+            <span id="password_span">ProtonMail Password</span>
+            <input type="text" id="password_field">
+            <span id="mailbox_span">ProtonMail Mailbox Password</span>
+            <input type="text" id="mailbox_field">
+            <span id="save_span">Save within the app?</span>
+            <input type="checkbox" id="save_field" checked>
+            <button id="stop_btn">Cancel</button>
+            <button id="reset_btn">Reset</button>
+            <button id="submit_btn">Save</button>
+        </div>
+        <div id="tooltip">
+            <div class="toolitem" id="name_tool">This will be the name of the file being saved.<br><div id="name_tool_result" style="color: #F20000;">filename.protonmail</div></div>
+            <div class="toolitem" id="pin_tool">This will be the PIN to unlock the login.<br><div id="pin_tool_length" style="color: #F20000;">Contains four characters or more.</div><div id="pin_tool_result" style="color: #F20000;">PIN</div></div>
+            <div class="toolitem" id="username_tool">Your ProtonMail username.</div>
+            <div class="toolitem" id="password_tool">Your ProtonMail password.</div>
+            <div class="toolitem" id="mailbox_tool">Your ProtonMail mailbox password.</div>
+            <div class="toolitem" id="save_tool">Do you want to save the login file within<br>the application, or save in a location of<br>your choice? Defaults to home folder.<br><div id="save_tool_result">In-App</div>
+            </div>
+            <div class="toolitem" id="error_tool"></div>
+        </div>
+    </body>
+</html>
