@@ -50,6 +50,11 @@
             login = {username: data[0], password: data[1], mailbox: data[2]};
         });
 
+        // Press Enter To Activate Default Button
+        client.$(window).keypress(function(e){
+            if ((ev.keyCode ? ev.keyCode : ev.which) == 13) client.$("#unlock_btn").click();
+        });
+
         // Login Process
         client.$("#login_view").on("pageNavigated", function (e) {
             switch(e.detail){

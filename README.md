@@ -27,9 +27,9 @@ When you first open the app, a window will appear that looks similar to the intr
 
 Starting off, press “New Login” which will open another window and allow you to enter your credentials.
 
-![Introductory Window](README_files/screenshot1.png)
+![Introductory Window](README_SS1.png)
 
-Now you can begin to create a new login file. First, you need to pick a name in order to differentiate it from other login files. 
+Now you can begin to create a new login file. First, you need to pick a name in order to differentiate it from other login files.
 
 Filename conventions are complicated to say the least, so you will be limited to entering alphanumeric characters, but you can rename it after the fact to include other characters if your system supports it.
 
@@ -39,19 +39,19 @@ Your ProtonMail username and passwords do not receive any checks. Instead, they 
 
 You can also decide where to save this file. You can save it in-app, which means that it will be saved within the application cache folder designated by your operating system. Or you can save it wherever you choose, however logins not saved within the app do not appear on the quick access column on the main window.
 
-![Creating A Login](README_files/screenshot2.png)
+![Creating A Login](README_SS2.png)
 
 As you can see, because we saved it within the app, its name appears within the quick access column.
 
-![Quick Access Column](README_files/screenshot3.png)
+![Quick Access Column](README_SS3.png)
 
 Clicking it will spawn another window. You will be prompted to enter your PIN that you set during the creation process.
 
-![Unlocking Your Login](README_files/screenshot4.png)
+![Unlocking Your Login](README_SS4.png)
 
 Once you have correctly entered your PIN, the window will morph into a large window and allow you to maximise and fullscreen the window. The application will load ProtonMail and automatically enter the credentials you saved and log you in.
 
-![Automatic Login](README_files/screenshot5.png)
+![Automatic Login](README_SS5.png)
 
 ## Todo
 

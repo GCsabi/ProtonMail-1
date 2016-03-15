@@ -138,5 +138,10 @@
                 })
             }
         });
+
+        // Press Enter To Activate Default Button
+        client.$(window).keypress(function(e){
+            if ((ev.keyCode ? ev.keyCode : ev.which) == 13) client.$("#submit_btn").click();
+        });
     });
 })()

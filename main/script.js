@@ -95,6 +95,11 @@
         // Create A New Login Save
         client.$("#new_btn").click(create);
 
+        // Press Enter To Activate Default Button
+        client.$(window).keypress(function(e){
+            if ((ev.keyCode ? ev.keyCode : ev.which) == 13) client.$("#files_btn").click();
+        });
+
         // List All Locally Saved Logins
         function recents () {
             client.$("#recent_logins").html("");
