@@ -52,7 +52,7 @@
 
         // Press Enter To Activate Default Button
         client.$(window).keypress(function(e){
-            if ((ev.keyCode ? ev.keyCode : ev.which) == 13) client.$("#unlock_btn").click();
+            if ((e.keyCode ? e.keyCode : e.which) == 13) client.$("#unlock_btn").click();
         });
 
         // Login Process
